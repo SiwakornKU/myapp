@@ -1,9 +1,10 @@
 package myapp;
 
-public class Cat extends X{
+public class Cat extends Dog{
 
     private String name;
     public Cat(String name) {
+        super(name);
         this.name = name;
     }
 
