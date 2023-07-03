@@ -1,6 +1,6 @@
 package myapp;
 
-public class Cat {
+public class Cat extends X{
 
     private String name;
     public Cat(String name) {
